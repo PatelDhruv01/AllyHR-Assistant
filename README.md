@@ -3,6 +3,7 @@
 # HRMS Chatbot
 
 ![HRMS Chatbot Demo](docs/demo.gif)
+![HRMS Chatbot Demo](docs/demo.png)
 
 Welcome to the **HRMS Chatbot**, a fully local AI-powered solution for answering HR queries using natural language processing. Built with Flask, Ollama, ChromaDB, and PostgreSQL, this chatbot offers a seamless experience with streaming responses and a responsive UI, all while running entirely on your local network (except for SMTP for password resets).
 
