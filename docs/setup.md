@@ -26,7 +26,8 @@ The HRMS Chatbot is designed to run entirely on your local network, with no inte
    ```
 3. **Install Ollama**:
    - Download and install Ollama from [ollama.ai](https://ollama.ai).
-   - Pull a model: `ollama pull llama3`.
+   - Pull a model: `ollama pull llama3.2`.
+   - pull an embedding model as well: `ollama pull nomic-embed-text:latest`.
    - Ensure Ollama runs locally: `ollama run llama3`.
 4. **Configure PostgreSQL**:
    - Create a database: `createdb hrms_chatbot`.
@@ -52,3 +53,4 @@ The HRMS Chatbot is designed to run entirely on your local network, with no inte
 ## Troubleshooting
 - **Ollama Not Responding**: Ensure Ollama is running (`ollama run llama3`).
 - **SMTP Issues**: Verify SMTP settings; if unavailable, password resets will fail.
+
