@@ -35,32 +35,35 @@ Welcome to the **AllyHR Assistant**, a fully local AI-powered solution for answe
   - Git
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/HRMS-Chatbot.git
-   cd HRMS-Chatbot
-   ```
-2. Set up a virtual environment and install dependencies:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-3. Install and run Ollama:
-   - Download and install Ollama from [ollama.ai](https://ollama.ai).
-   - Pull a model (e.g., `ollama pull llama3`).
-4. Configure PostgreSQL:
-   - Create a database: `createdb hrms_chatbot`
-   - Update environment variables (create a `.env` file based on `.env.example`).
-5. Populate the knowledge base:
-   ```bash
-   python src/backend/scripts/populate_database.py
-   ```
-6. Run the Flask backend:
-   ```bash
-   python src/backend/scripts/app.py
-   ```
-7. Access the chatbot at `http://localhost:5000`.
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/your-username/HRMS-Chatbot.git](https://github.com/your-username/HRMS-Chatbot.git)
+    cd HRMS-Chatbot
+    ``` 
+2.  Set up a virtual environment and install dependencies:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install -r requirements.txt
+    ```
+3.  Install and run Ollama:
+      - Download and install Ollama from [ollama.ai](https://ollama.ai).
+      - Pull a model (e.g., `ollama pull llama3`).
+
+4.  Configure PostgreSQL:
+      - Create a database: `createdb hrms_chatbot`
+      - Update environment variables (create a `.env` file based on `.env.example`).
+  
+5.  Populate the knowledge base:
+    ```bash
+    python src/backend/scripts/populate_database.py
+    ```
+6.  Run the Flask backend:
+    ```bash
+    python src/backend/scripts/app.py
+    ```
+7.  Access the chatbot at `http://localhost:5000`.
 
 ### Usage
 
