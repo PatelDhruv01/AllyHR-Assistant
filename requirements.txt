@@ -2,6 +2,7 @@ chromadb
 langchain
 langchain-chroma
 langchain-ollama
+langchain_community
 pypdf
 flask
 flask-login
